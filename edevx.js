@@ -455,6 +455,19 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.add('has-slide');
         document.documentElement.classList.remove('dark');
         localStorage.setItem('theme', 'light');
+
+        // ÉP TRÌNH DUYỆT TỰ ĐỘNG IN KHỔ NGANG (A4 LANDSCAPE) CHO MODE 2
+        if (!document.getElementById('edevx-slide-print-engine')) {
+            const slidePrintStyle = document.createElement('style');
+            slidePrintStyle.id = 'edevx-slide-print-engine';
+            slidePrintStyle.innerHTML = `
+                @media print {
+                    @page { size: A4 landscape !important; margin: 0 !important; }
+                    html, body { width: 297mm !important; height: 210mm !important; background: #ffffff !important; }
+                }
+            `;
+            document.head.appendChild(slidePrintStyle);
+        }
         
         const articleBodyForSlide = document.getElementById('article-body-content');
         if (articleBodyForSlide) {

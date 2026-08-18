@@ -372,30 +372,17 @@ html.pdf-mode-active, body.pdf-mode-active { background-color: #323639 !importan
 .a4-page-demo *:not(.katex):not(.katex *):not(.fa-solid):not(i){font-family:'Times New Roman',Times,serif!important}
 .a4-page-demo .katex,.a4-page-demo .katex *{font-family:KaTeX_Main,KaTeX_Math,KaTeX_AMS,sans-serif!important}
 
-/* 🖨️ TRIỆT TIÊU LỖI LỆCH KHUNG KHI IN */
-@media print{
-  @page{size:A4 portrait;margin:0!important}
-  html,body{background:#fff!important;margin:0!important;padding:0!important;width:210mm!important;height:auto!important}
-  header,footer,aside,nav,.no-print,.pdf-toolbar,#comments,#back-to-top,.sidebar,.post-header{display:none!important}
-  .max-w-7xl,main,article,.post-body,#article-body-content{display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;border:none!important;box-shadow:none!important;background:#fff!important}
-  #edevx-pdf-workspace{display:block!important;visibility:visible!important;width:210mm!important;margin:0!important;padding:0!important;background:#fff!important}
-  .a4-page-demo{width:210mm!important;height:297mm!important;max-height:297mm!important;box-sizing:border-box!important;margin:0!important;padding:12mm 16mm!important;box-shadow:none!important;border:none!important;border-radius:0!important;page-break-after:always!important;page-break-inside:avoid!important;position:relative!important;overflow:hidden!important;display:block!important}
-  #answer-key-content{display:block!important}
-}
+/* 🖨️ TRIỆT TIÊU LỆCH KHUNG IN CHO MODE 2B & MODE 2C (ULTRA COMPACT) */
+.a4-page-demo-full, .a4-page-top-half { width: 794px !important; height: 1123px !important; background: #fff !important; margin: 0 auto 30px !important; padding: 0 !important; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important; position: relative !important; overflow: hidden !important; display: block !important; }
 
-/* [MODE 2C]: KHUNG A4 FULL & TOP-HALF A5 PRINT */
-.a4-page-demo-full, .a4-page-top-half {
-  width: 794px !important; height: 1123px !important; max-height: 1123px !important;
-  background: #ffffff !important; margin: 0 auto 30px !important; padding: 0 !important;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important; box-sizing: border-box !important;
-  position: relative !important; overflow: hidden !important; display: block !important;
-}
 @media print {
-  @page { size: A4 portrait !important; margin: 0 !important; }
-  .a4-page-demo-full, .a4-page-top-half {
-    width: 210mm !important; height: 297mm !important; max-height: 297mm !important;
-    margin: 0 !important; padding: 0 !important; box-shadow: none !important; border: none !important;
-    page-break-after: always !important; break-after: page !important; page-break-inside: avoid !important;
-    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-  }
+  body:not(.has-slide) { width: 210mm !important; }
+  html.pdf-mode-active, body.pdf-mode-active, body:not(.has-slide) { background: #fff !important; margin: 0 !important; padding: 0 !important; }
+  header, footer, aside, nav, .no-print, .pdf-toolbar, #comments, #back-to-top, .sidebar, .post-header { display: none !important; }
+  .max-w-7xl, main, article, .post-body, #article-body-content, #edevx-pdf-workspace { display: block !important; width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: none !important; box-shadow: none !important; background: #fff !important; }
+  #edevx-pdf-workspace { width: 210mm !important; }
+  .a4-page-demo, .a4-page-demo-full, .a4-page-top-half { width: 210mm !important; height: 297mm !important; max-height: 297mm !important; box-sizing: border-box !important; margin: 0 !important; box-shadow: none !important; border: none !important; page-break-after: always !important; page-break-inside: avoid !important; position: relative !important; overflow: hidden !important; display: block !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  .a4-page-demo { padding: 12mm 16mm !important; }
+  .a4-page-demo-full, .a4-page-top-half { padding: 0 !important; }
+  #answer-key-content { display: block !important; }
 }
