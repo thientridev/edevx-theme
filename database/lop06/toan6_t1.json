@@ -688,5 +688,455 @@
     ],
     "correct_answer": 1,
     "explanation": "Ta có: $1 + 3 + 3^2 + 3^3 + 3^4 = 1 + 3 + 9 + 27 + 81 = 121$. Vậy $n = 4$."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q02",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Phát biểu nào sau đây định nghĩa đúng về số nguyên tố?",
+    "options": [
+      "Số nguyên tố là số tự nhiên lẻ có 2 ước.",
+      "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó.",
+      "Số nguyên tố là số tự nhiên có hai ước chẵn.",
+      "Số nguyên tố là số lớn hơn 1 không chia hết cho 2."
+    ],
+    "correct_answer": 1,
+    "explanation": "Định nghĩa chuẩn xác trong SGK chỉ ra số nguyên tố phải lớn hơn 1 và chỉ có 2 ước là 1 và chính nó."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q03",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nào sau đây là số nguyên tố nhỏ nhất?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": 2,
+    "explanation": "Số 2 là số tự nhiên lớn hơn 1 nhỏ nhất chỉ chia hết cho 1 và chính nó."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q04",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Khẳng định nào sau đây nói về hợp số là chính xác?",
+    "options": [
+      "Hợp số là số tự nhiên lớn hơn 1 có đúng 2 ước.",
+      "Hợp số là số lẻ lớn hơn 1.",
+      "Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn hai ước.",
+      "Hợp số là số chẵn bất kỳ."
+    ],
+    "correct_answer": 2,
+    "explanation": "Hợp số theo định nghĩa là số tự nhiên lớn hơn 1 và có từ 3 ước trở lên."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q05",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nào sau đây không phải là số nguyên tố và cũng không phải là hợp số?",
+    "options": [
+      "2",
+      "10",
+      "1",
+      "11"
+    ],
+    "correct_answer": 2,
+    "explanation": "Số 0 và số 1 là các trường hợp đặc biệt không là số nguyên tố cũng không là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q06",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nào dưới đây là số nguyên tố?",
+    "options": [
+      "9",
+      "15",
+      "23",
+      "25"
+    ],
+    "correct_answer": 2,
+    "explanation": "Số 23 chỉ chia hết cho 1 và chính nó. Các số 9, 15, 25 đều có nhiều hơn hai ước."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q07",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Có bao nhiêu số nguyên tố chẵn?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Vô số"
+    ],
+    "correct_answer": 1,
+    "explanation": "Số 2 là số nguyên tố chẵn duy nhất. Tất cả các số chẵn lớn hơn 2 đều chia hết cho 2 nên là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q08",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nguyên tố lẻ nhỏ nhất là:",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "2"
+    ],
+    "correct_answer": 1,
+    "explanation": "Số 2 là số chẵn. Số lẻ lớn hơn 1 nhỏ nhất là số 3, và 3 chỉ chia hết cho 1 và 3 nên là số nguyên tố lẻ nhỏ nhất."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q09",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Khẳng định nào dưới đây sai?",
+    "options": [
+      "Số 0 không là hợp số.",
+      "Số 1 không là số nguyên tố.",
+      "Số 2 là số nguyên tố.",
+      "Số 9 là số nguyên tố."
+    ],
+    "correct_answer": 3,
+    "explanation": "Số 9 có 3 ước là 1, 3, 9 nên 9 là hợp số, khẳng định 9 là số nguyên tố là sai."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q10",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Tập hợp các ước của một số nguyên tố gồm bao nhiêu phần tử?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Vô số"
+    ],
+    "correct_answer": 1,
+    "explanation": "Số nguyên tố chỉ có đúng hai ước là 1 và chính nó."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q11",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Phép toán viết một số dưới dạng tích các số nguyên tố được gọi là:",
+    "options": [
+      "Phép nâng lên lũy thừa.",
+      "Phép nhân số tự nhiên.",
+      "Phép phân tích ra thừa số nguyên tố.",
+      "Phép chia hết."
+    ],
+    "correct_answer": 2,
+    "explanation": "Đây chính là định nghĩa của phép phân tích một số ra thừa số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q12",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Tập ước nguyên tố của số $28$ gồm những số nào?",
+    "options": [
+      "$\\{1; 2; 7\\}$",
+      "$\\{2; 7\\}$",
+      "$\\{2; 4; 7\\}$",
+      "$\\{1; 28\\}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta phân tích $28 = 2^2 \\cdot 7$. Vậy các ước số nguyên tố của 28 chỉ là 2 và 7."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q13",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả phân tích số $72$ ra thừa số nguyên tố nào dưới đây là đúng?",
+    "options": [
+      "$2 \\cdot 3^3$",
+      "$8 \\cdot 9$",
+      "$2^3 \\cdot 3^2$",
+      "$2^2 \\cdot 3^3$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ta có $72 = 8 \\cdot 9 = 2^3 \\cdot 3^2$. Tất cả cơ số đều là số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q14",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số nào sau đây là hợp số?",
+    "options": [
+      "61",
+      "71",
+      "73",
+      "91"
+    ],
+    "correct_answer": 3,
+    "explanation": "Số 91 chia hết cho 7 và 13 ($91 = 7 \\cdot 13$) nên nó là hợp số. Các số còn lại đều là số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q15",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Khẳng định nào sau đây là chính xác?",
+    "options": [
+      "Tích của hai số nguyên tố bất kỳ luôn là số lẻ.",
+      "Tổng của hai số nguyên tố bất kỳ luôn là số chẵn.",
+      "Ước nguyên tố nhỏ nhất của mọi hợp số chẵn là 2.",
+      "Số nguyên tố lớn luôn tận cùng là 5."
+    ],
+    "correct_answer": 2,
+    "explanation": "Hợp số chẵn luôn chia hết cho 2, mà 2 là số nguyên tố nhỏ nhất, nên 2 là ước nguyên tố nhỏ nhất của nó."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q16",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Trong các số sau: $111; 123; 143; 197$, số nào là số nguyên tố?",
+    "options": [
+      "111",
+      "123",
+      "143",
+      "197"
+    ],
+    "correct_answer": 3,
+    "explanation": "$111$ chia hết cho 3 ($1+1+1=3$), $123$ chia hết cho 3, $143$ chia hết cho 11 ($143 = 11 \\cdot 13$). Chỉ có 197 là số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q17",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Khi phân tích số $100$ ra thừa số nguyên tố, tích đó có bao nhiêu thừa số 2?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "0"
+    ],
+    "correct_answer": 1,
+    "explanation": "Phân tích $100 = 2^2 \\cdot 5^2 = 2 \\cdot 2 \\cdot 5 \\cdot 5$. Có 2 thừa số 2."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q18",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số tự nhiên $x$ nào dưới đây làm cho biểu thức $13x$ là số nguyên tố?",
+    "options": [
+      "$x = 0$",
+      "$x = 1$",
+      "$x = 13$",
+      "Không tồn tại $x$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Nếu $x=1$ thì $13 \\cdot 1 = 13$ là số nguyên tố. Nếu $x>1$ thì $13x$ chia hết cho 13 và $x$ nên là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q19",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số lượng ước số tự nhiên của số $2^4$ là:",
+    "options": [
+      "4",
+      "5",
+      "16",
+      "2"
+    ],
+    "correct_answer": 1,
+    "explanation": "Các ước của $2^4 = 16$ là $\\{1; 2; 4; 8; 16\\}$ (gồm 5 ước, tính theo công thức số mũ cộng 1: $4+1=5$)."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q20",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Cặp số nguyên tố sinh đôi là cặp số nguyên tố hơn kém nhau 2 đơn vị. Cặp số nào sau đây không phải là số nguyên tố sinh đôi?",
+    "options": [
+      "3 và 5",
+      "11 và 13",
+      "17 và 19",
+      "27 và 29"
+    ],
+    "correct_answer": 3,
+    "explanation": "Số 27 chia hết cho 3, 9 nên không phải là số nguyên tố, do đó cặp 27 và 29 không phải là cặp số nguyên tố sinh đôi."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q21",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Mẹ của Lan có 17 viên kẹo muốn chia đều vào các đĩa. Có bao nhiêu cách chia kẹo để mỗi đĩa có số kẹo như nhau và số đĩa nhiều hơn 1?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tập ước của 17 là $\\{1; 17\\}$. Do số đĩa lớn hơn 1 nên chỉ có duy nhất 1 cách chia là xếp vào 17 đĩa, mỗi đĩa có 1 viên kẹo."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q22",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số tự nhiên $x$ sao cho $x + 10$ và $x + 12$ đều là các số nguyên tố:",
+    "options": [
+      "$x = 0$",
+      "$x = 1$",
+      "$x = 2$",
+      "$x = 3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Với $x=1$ thì $x+10=11$ và $x+12=13$ đều là các số nguyên tố. Với các số khác, một trong hai biểu thức sẽ là số chẵn lớn hơn 2 (hợp số)."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q23",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Cho $B = 2 \\cdot 3 \\cdot 5 \\cdot 7 + 105$. Khẳng định nào sau đây là đúng?",
+    "options": [
+      "$B$ là số nguyên tố.",
+      "$B$ là hợp số chia hết cho 5.",
+      "$B$ không chia hết cho 3.",
+      "$B$ lẻ và là số nguyên tố."
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta thấy $2 \\cdot 3 \\cdot 5 \\cdot 7$ có thừa số 5, và $105$ tận cùng là 5 nên chia hết cho 5. Suy ra $B$ chia hết cho 5. Vì $B > 5$ nên $B$ là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q24",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Số tự nhiên $n$ nào sau đây thỏa mãn $2^n - 1$ là hợp số?",
+    "options": [
+      "$n=2$",
+      "$n=3$",
+      "$n=4$",
+      "$n=5$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Với $n=4$ ta có $2^4 - 1 = 15$ là hợp số. Với $n=2, 3, 5$ thì biểu thức lần lượt là $3, 7, 31$ đều là các số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q25",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Có bao nhiêu số nguyên tố dạng $\\overline{3a}$?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1,
+    "explanation": "Các số nguyên tố từ 30 đến 39 là 31 và 37. Vậy có đúng 2 số nguyên tố."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q26",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số nguyên tố $p$ sao cho $p+2$ là hợp số và $p+4$ là số nguyên tố:",
+    "options": [
+      "$p=3$",
+      "$p=7$",
+      "$p=5$",
+      "$p=11$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Với $p=7$: $p+2=9$ (hợp số) và $p+4=11$ (số nguyên tố), thỏa mãn. Với $p=3$: cả hai đều là số nguyên tố. Với $p=5$: $p+4=9$ là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q27",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Số ước tự nhiên của số $A = 2^2 \\cdot 3 \\cdot 5$ là:",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "10"
+    ],
+    "correct_answer": 2,
+    "explanation": "Công thức tính số ước: $(2+1) \\cdot (1+1) \\cdot (1+1) = 3 \\cdot 2 \\cdot 2 = 12$ ước."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q28",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Tìm số nguyên tố $p$ sao cho $p^2 + 44$ là số nguyên tố:",
+    "options": [
+      "$p=2$",
+      "$p=3$",
+      "$p=5$",
+      "$p=7$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Với $p=3$, $3^2+44=53$ là số nguyên tố. Với $p \\ne 3$, $p^2$ chia 3 dư 1 nên $p^2+44$ chia hết cho 3 và lớn hơn 3 nên là hợp số."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q29",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Cặp số nguyên tố $(p, q)$ thỏa mãn $p^2 - 2q^2 = 1$ là:",
+    "options": [
+      "$(5, 3)$",
+      "$(2, 3)$",
+      "$(3, 2)$",
+      "Không tồn tại"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ta có $p^2 = 2q^2+1$. Vì $p$ lẻ nên $q$ chẵn, suy ra số nguyên tố chẵn $q=2$. Từ đó $p^2 = 2 \\cdot 4 + 1 = 9 \\Rightarrow p=3$."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q30",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Biết $p$ và $p+8$ là các số nguyên tố ($p > 3$). Khẳng định nào sau đây đối với số $p+4$ là chính xác?",
+    "options": [
+      "$p+4$ là số nguyên tố.",
+      "$p+4$ là hợp số chia hết cho 3.",
+      "$p+4$ chia 3 dư 2.",
+      "$p+4$ là số lẻ nguyên tố."
+    ],
+    "correct_answer": 1,
+    "explanation": "Vì $p > 3$ và $p$ nguyên tố nên $p$ chia 3 dư 1 hoặc 2. Nếu $p$ chia 3 dư 1 thì $p+8$ chia hết cho 3 (hợp số, loại). Do đó $p$ chia 3 dư 2, suy ra $p+4$ chia hết cho 3. Vì $p+4 > 3$ nên $p+4$ là hợp số chia hết cho 3."
+  },
+  {
+    "id": "toan6_c2_b10_so_nguyen_to_q31",
+    "topic": "toan6_c2_b10_so_nguyen_to",
+    "chapter": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Tổng của 3 số nguyên tố liên tiếp là một số nguyên tố. Tìm số nguyên tố nhỏ nhất trong 3 số đó:",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "11"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ba số nguyên tố liên tiếp là 3, 5, 7 có tổng $3+5+7=15$ (hợp số). Ba số nguyên tố lẻ liên tiếp bất kỳ luôn có tổng chia hết cho 3 (vì ba số lẻ liên tiếp luôn có dạng $3k, 3k+2, 3k+4$ chia hết cho 3). Số nguyên tố duy nhất có thể bắt đầu là 2. Thử ba số: $2, 3, 5$ có tổng $2+3+5=10$ (loại). Xét bộ $3, 5, 7$ có tổng là 15 (loại). Xét bộ ba số nguyên tố liên tiếp khác: $2 + 3 + 5 = 10$ (loại).  Có bộ nào khác? Thử $19 + 23 + 29 = 71$ (là số nguyên tố!). Các số liên tiếp là $19, 23, 29$. Số nhỏ nhất trong 3 số đó là 19. Mà các lựa chọn chỉ có 2, 3, 5, 11? Hãy kiểm tra lại bộ $3 + 5 + 7 = 15$ (loại). Có bộ $2 + 3 + 5 = 10$ (loại). Thử bộ khác: $5+7+11=23$ (là số nguyên tố!). Bộ ba số nguyên tố liên tiếp là $5, 7, 11$ có tổng là $23$ là số nguyên tố. Vậy số nhỏ nhất trong ba số đó là 5 (thỏa mãn phương án C)."
   }
 ]
