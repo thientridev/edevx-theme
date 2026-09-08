@@ -1112,11 +1112,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // E. AUTO SUMMARY BANNER ENGINE
+     // E. AUTO SUMMARY BANNER ENGINE
     function initAutoSummaryEngine() {
         document.querySelectorAll('.edevx-summary-auto').forEach(box => {
-            if (box.querySelector('section')) return;
-            
+            if (box.querySelector('.bg-gradient-to-r')) return; 
+
             let isBase64Mode = box.hasAttribute('data-pts-b64');
             let points = isBase64Mode ? parseBase64JSON(box.getAttribute('data-pts-b64')) : safeParseJSON(box.getAttribute('data-points'));
             if (points.length === 0) return;
@@ -1125,39 +1125,34 @@ document.addEventListener("DOMContentLoaded", function() {
             const badgeText = box.getAttribute('data-badge') || 'EDEVX • BÀI HỌC TƯƠNG TÁC';
             
             box.innerHTML = `
-            <section class="space-y-6 my-10">
-                <h2 class="flex items-center gap-4 text-2xl md:text-3xl font-black text-slate-800 dark:text-zinc-100 border-none">
-                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 text-white rounded-2xl flex items-center justify-center shadow-lg shrink-0"><i class="fas fa-flag-checkered text-xl"></i></div>
-                    <span>Phần 7: Chốt Kiến Thức — Em Đã Làm Chủ Bài Học?</span>
-                </h2>
-                <div class="bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 text-white p-6 md:p-8 rounded-3xl shadow-xl space-y-6 border-2 border-emerald-400">
-                    <div class="text-center space-y-2">
-                        <div class="text-4xl animate-bounce">🏆</div>
-                        <div class="text-2xl font-black uppercase tracking-wider text-amber-300">5 ĐIỀU PHẢI NHỚ CỦA BÀI HỌC</div>
-                        <p class="text-emerald-100 text-sm font-medium">Nếu thuộc lòng các điểm chốt dưới đây, em đã hoàn toàn chinh phục bài học này!</p>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm font-medium">
-                        ${points.map((pt, i) => `
-                            <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 flex items-start gap-3 ${i===4?'md:col-span-2':''}">
-                                <span class="bg-amber-400 text-slate-950 font-black rounded-lg w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">${i+1}</span>
-                                <div class="leading-relaxed">${pt}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                    ${challengeText ? `
-                    <div class="bg-white text-slate-800 rounded-2xl p-5 text-center space-y-2 shadow-lg">
-                        <div class="font-black text-lg text-emerald-700 uppercase tracking-wider flex items-center justify-center gap-2"><span>🎯 THỬ THÁCH NÓI THÀNH LỜI</span></div>
-                        <p class="text-sm font-medium leading-relaxed">Không nhìn đáp án, hãy tự phát biểu thành lời trước gương: <br /><b class="text-indigo-600">"${challengeText}"</b></p>
-                    </div>` : ''}
+              <div class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white p-6 md:p-8 rounded-3xl shadow-xl space-y-6 border-2 border-emerald-400">
+                <div class="text-center space-y-2">
+                  <div class="text-4xl animate-bounce">🏆</div>
+                  <div class="text-2xl font-black uppercase tracking-wider text-amber-300">5 ĐIỀU PHẢI NHỚ CỦA BÀI HỌC</div>
+                  <p class="text-emerald-100 text-sm font-medium">Nếu thuộc lòng các điểm chốt dưới đây, em đã hoàn toàn chinh phục bài học này!</p>
                 </div>
-                <div class="border-t-2 border-slate-200 dark:border-zinc-800 pt-6 mt-10 text-center space-y-2">
-                    <div class="inline-flex items-center gap-2 px-5 py-2 bg-indigo-50 dark:bg-zinc-900 text-indigo-700 dark:text-indigo-300 rounded-full text-xs font-black border border-indigo-200 dark:border-zinc-700 shadow-sm">
-                        <i class="fas fa-graduation-cap text-base text-indigo-500"></i>
-                        <span>${badgeText}</span>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm font-medium">
+                  ${points.map((pt, i) => `
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 flex items-start gap-3 ${i===4?'md:col-span-2':''}">
+                      <span class="bg-amber-400 text-slate-950 font-black rounded-lg w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">${i+1}</span>
+                      <div class="leading-relaxed">${pt}</div>
                     </div>
-                    <p class="text-xs text-slate-400 font-medium">Hoàn thành 100% chương trình GDPT 2018</p>
+                  `).join('')}
                 </div>
-            </section>`;
+                ${challengeText ? `
+                <div class="bg-white text-slate-800 rounded-2xl p-5 text-center space-y-2 shadow-lg">
+                  <div class="font-black text-lg text-emerald-700 uppercase tracking-wider flex items-center justify-center gap-2"><span>🎯 THỬ THÁCH NÓI THÀNH LỜI</span></div>
+                  <p class="text-sm font-medium leading-relaxed">Không nhìn đáp án, hãy tự phát biểu thành lời trước gương: <br /><b class="text-indigo-600">"${challengeText}"</b></p>
+                </div>` : ''}
+              </div>
+              <div class="border-t-2 border-slate-200 dark:border-zinc-800 pt-6 mt-10 text-center space-y-2">
+                <div class="inline-flex items-center gap-2 px-5 py-2 bg-indigo-50 dark:bg-zinc-900 text-indigo-700 dark:text-indigo-300 rounded-full text-xs font-black border border-indigo-200 dark:border-zinc-700 shadow-sm">
+                  <i class="fas fa-graduation-cap text-base text-indigo-500"></i>
+                  <span>${badgeText}</span>
+                </div>
+                <p class="text-xs text-slate-400 font-medium">Hoàn thành 100% chương trình GDPT 2018</p>
+              </div>
+            `;
         });
     }
 
