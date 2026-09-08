@@ -1,0 +1,692 @@
+[
+  {
+    "id": "toan6_c1_b01_q01",
+    "topic": "toan6_c1_b01_tap_hop",
+    "chapter": "Chương 1: Số Tự Nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nào sau đây không thuộc tập hợp $\\mathbb{N}^*$?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "100"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tập hợp $\\mathbb{N}^*$ là tập các số tự nhiên khác 0, do đó số 0 không thuộc $\\mathbb{N}^*$."
+  },
+  {
+    "id": "toan6_c1_b06_q01",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Trong lũy thừa $7^4$, cơ số là:",
+    "options": [
+      "7",
+      "4",
+      "28",
+      "11"
+    ],
+    "correct_answer": 0,
+    "explanation": "Theo định nghĩa lũy thừa $a^n$ thì $a$ là cơ số, $n$ là số mũ. Do đó trong $7^4$ thì cơ số là 7, số mũ là 4."
+  },
+  {
+    "id": "toan6_c1_b06_q02",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Trong lũy thừa $5^8$, số mũ là:",
+    "options": [
+      "5",
+      "8",
+      "40",
+      "13"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo định nghĩa lũy thừa $a^n$ thì $a$ là cơ số, $n$ là số mũ. Do đó trong $5^8$ thì số mũ là 8, cơ số là 5."
+  },
+  {
+    "id": "toan6_c1_b06_q03",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Lũy thừa $a^3$ còn được gọi là gì?",
+    "options": [
+      "a bình phương",
+      "a lập phương",
+      "ba lần a",
+      "a mũ ba nhân ba"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo chú ý trong SGK, lũy thừa bậc 3 của một số còn gọi là lập phương của số đó."
+  },
+  {
+    "id": "toan6_c1_b06_q04",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Quy ước $a^0$ bằng bao nhiêu với $a \\ne 0$?",
+    "options": [
+      "0",
+      "1",
+      "a",
+      "Chưa xác định"
+    ],
+    "correct_answer": 1,
+    "explanation": "Người ta quy ước $a^0 = 1$ với mọi số tự nhiên $a$ khác 0."
+  },
+  {
+    "id": "toan6_c1_b06_q05",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số nào sau đây không phải là số chính phương?",
+    "options": [
+      "0",
+      "1",
+      "4",
+      "8"
+    ],
+    "correct_answer": 3,
+    "explanation": "Các số chính phương là bình phương của số tự nhiên: $0=0^2, 1=1^2, 4=2^2$. Số 8 không bằng bình phương của số tự nhiên nào."
+  },
+  {
+    "id": "toan6_c1_b06_q06",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả của phép tính $3^4 \\cdot 3^5$ dưới dạng một lũy thừa là:",
+    "options": [
+      "$3^{20}$",
+      "$9^9$",
+      "$3^9$",
+      "$9^{20}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Áp dụng quy tắc nhân hai lũy thừa cùng cơ số: $a^m \\cdot a^n = a^{m+n}$. Ta có: $3^4 \\cdot 3^5 = 3^{4+5} = 3^9$."
+  },
+  {
+    "id": "toan6_c1_b06_q07",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả của phép tính $5^8 : 5^2$ dưới dạng một lũy thừa là:",
+    "options": [
+      "$5^4$",
+      "$5^6$",
+      "$1^6$",
+      "$5^{10}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Áp dụng quy tắc chia hai lũy thừa cùng cơ số: $a^m : a^n = a^{m-n}$. Ta có: $5^8 : 5^2 = 5^{8-2} = 5^6$."
+  },
+  {
+    "id": "toan6_c1_b06_q08",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Viết tích $2^3 \\cdot 4$ dưới dạng một lũy thừa của 2:",
+    "options": [
+      "$2^{12}$",
+      "$2^5$",
+      "$2^6$",
+      "$8^2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $4 = 2^2$. Do đó: $2^3 \\cdot 4 = 2^3 \\cdot 2^2 = 2^{3+2} = 2^5$."
+  },
+  {
+    "id": "toan6_c1_b06_q09",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Tính giá trị của biểu thức $10^3 - 10^2$:",
+    "options": [
+      "$10$",
+      "$900$",
+      "$0$",
+      "$100$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $10^3 = 1000$ và $10^2 = 100$. Do đó $10^3 - 10^2 = 1000 - 100 = 900$."
+  },
+  {
+    "id": "toan6_c1_b06_q10",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Viết thương $a^9 : a$ (với $a \\ne 0$) dưới dạng một lũy thừa là:",
+    "options": [
+      "$a^9$",
+      "$a^8$",
+      "$9$",
+      "$a^{10}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $a = a^1$. Do đó $a^9 : a = a^9 : a^1 = a^{9-1} = a^8$."
+  },
+  {
+    "id": "toan6_c1_b06_q11",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số tự nhiên $100\\ 000$ được viết dưới dạng lũy thừa của 10 là:",
+    "options": [
+      "$10^4$",
+      "$10^5$",
+      "$10^6$",
+      "$10^3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Số $100\\ 000$ có 5 chữ số 0 nên có giá trị bằng $10^5$."
+  },
+  {
+    "id": "toan6_c1_b06_q12",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Tìm số tự nhiên $x$ biết $2^x = 16$:",
+    "options": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$8$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$. Do đó $x = 4$."
+  },
+  {
+    "id": "toan6_c1_b06_q13",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả so sánh $2^3$ và $3^2$ là:",
+    "options": [
+      "$2^3 < 3^2$",
+      "$2^3 > 3^2$",
+      "$2^3 = 3^2$",
+      "Không so sánh được"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có $2^3 = 8$ và $3^2 = 9$. Vì $8 < 9$ nên $2^3 < 3^2$."
+  },
+  {
+    "id": "toan6_c1_b06_q14",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Giá trị của biểu thức $2^5 - 3^3$ bằng:",
+    "options": [
+      "5",
+      "1",
+      "7",
+      "29"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có: $2^5 = 32$ và $3^3 = 27$. Do đó $2^5 - 3^3 = 32 - 27 = 5$."
+  },
+  {
+    "id": "toan6_c1_b06_q15",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số tự nhiên $x$ thỏa mãn $(x-1)^2 = 25$:",
+    "options": [
+      "$4$",
+      "$5$",
+      "$6$",
+      "$26$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ta có $5^2 = 25 \\Rightarrow x-1 = 5 \\Rightarrow x = 6$."
+  },
+  {
+    "id": "t6_b6_q01",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Trong biểu thức lũy thừa $a^n$, $a$ được gọi là gì?",
+    "options": [
+      "Cơ số",
+      "Số mũ",
+      "Lũy thừa",
+      "Tích số"
+    ],
+    "correct_answer": 0,
+    "explanation": "Trong lũy thừa $a^n$, $a$ gọi là cơ số, $n$ gọi là số mũ."
+  },
+  {
+    "id": "t6_b6_q02",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Lũy thừa bậc 2 của một số còn được gọi là gì?",
+    "options": [
+      "Bình phương",
+      "Lập phương",
+      "Gấp đôi",
+      "Căn bậc hai"
+    ],
+    "correct_answer": 0,
+    "explanation": "Theo định nghĩa trong SGK, lũy thừa bậc 2 của một số gọi là bình phương của số đó."
+  },
+  {
+    "id": "t6_b6_q03",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Lũy thừa bậc 3 của một số còn được gọi là gì?",
+    "options": [
+      "Bình phương",
+      "Lập phương",
+      "Gấp ba",
+      "Căn bậc ba"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo định nghĩa trong SGK, lũy thừa bậc 3 của một số gọi là lập phương của số đó."
+  },
+  {
+    "id": "t6_b6_q04",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Quy ước $a^1$ bằng bao nhiêu với mọi số tự nhiên $a$?",
+    "options": [
+      "1",
+      "$a$",
+      "0",
+      "$2a$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo quy ước trong SGK, ta có $a^1 = a$."
+  },
+  {
+    "id": "t6_b6_q05",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Quy ước $a^0$ bằng bao nhiêu với mọi số tự nhiên $a \\\\ne 0$?",
+    "options": [
+      "0",
+      "1",
+      "$a$",
+      "Chưa xác định"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo quy ước trong SGK, ta có $a^0 = 1$ với $a \\\\ne 0$."
+  },
+  {
+    "id": "t6_b6_q06",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Cơ số của lũy thừa $3^5$ là:",
+    "options": [
+      "3",
+      "5",
+      "15",
+      "243"
+    ],
+    "correct_answer": 0,
+    "explanation": "Trong lũy thừa $3^5$, số 3 là cơ số, số 5 là số mũ."
+  },
+  {
+    "id": "t6_b6_q07",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Số mũ của lũy thừa $2^8$ là:",
+    "options": [
+      "2",
+      "8",
+      "16",
+      "256"
+    ],
+    "correct_answer": 1,
+    "explanation": "Trong lũy thừa $2^8$, số 2 là cơ số, số 8 là số mũ."
+  },
+  {
+    "id": "t6_b6_q08",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Viết tích $4 \\\\cdot 4 \\\\cdot 4 \\\\cdot 4$ dưới dạng lũy thừa:",
+    "options": [
+      "$4^4$",
+      "$4 \\\\cdot 4$",
+      "$2^{16}$",
+      "$16^2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tích có 4 thừa số 4 giống nhau nên viết gọn dưới dạng lũy thừa là $4^4$."
+  },
+  {
+    "id": "t6_b6_q09",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Giá trị của lũy thừa $5^2$ bằng:",
+    "options": [
+      "10",
+      "25",
+      "125",
+      "50"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $5^2 = 5 \\\\cdot 5 = 25$."
+  },
+  {
+    "id": "t6_b6_q10",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Giá trị của lũy thừa $2^4$ bằng:",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $2^4 = 2 \\\\cdot 2 \\\\cdot 2 \\\\cdot 2 = 16$."
+  },
+  {
+    "id": "t6_b6_q11",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Khi nhân hai lũy thừa cùng cơ số, ta làm thế nào?",
+    "options": [
+      "Giữ nguyên cơ số và cộng các số mũ",
+      "Giữ nguyên cơ số và nhân các số mũ",
+      "Nhân hai cơ số và cộng các số mũ",
+      "Nhân hai cơ số và nhân các số mũ"
+    ],
+    "correct_answer": 0,
+    "explanation": "Theo quy tắc nhân hai lũy thừa cùng cơ số: $a^m \\\\cdot a^n = a^{m+n}$."
+  },
+  {
+    "id": "t6_b6_q12",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ1 - Nhận biết]",
+    "question": "Khi chia hai lũy thừa cùng cơ số (khác 0), ta làm thế nào?",
+    "options": [
+      "Giữ nguyên cơ số và chia các số mũ",
+      "Giữ nguyên cơ số và lấy số mũ của số bị chia trừ số mũ của số chia",
+      "Chia hai cơ số và trừ các số mũ",
+      "Giữ nguyên cơ số và cộng các số mũ"
+    ],
+    "correct_answer": 1,
+    "explanation": "Theo quy tắc chia hai lũy thừa cùng cơ số: $a^m : a^n = a^{m-n}$ (với $a \\\\ne 0, m \\\\ge n$)."
+  },
+  {
+    "id": "t6_b6_q13",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả của phép tính $4^5 \\\\cdot 4^2$ là:",
+    "options": [
+      "$4^{10}$",
+      "$4^7$",
+      "$16^7$",
+      "$8^7$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Áp dụng quy tắc nhân hai lũy thừa cùng cơ số: $4^5 \\\\cdot 4^2 = 4^{5+2} = 4^7$."
+  },
+  {
+    "id": "t6_b6_q14",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả của phép tính $3^8 : 3^4$ là:",
+    "options": [
+      "$3^2$",
+      "$3^4$",
+      "$1^4$",
+      "$3^{12}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Áp dụng quy tắc chia hai lũy thừa cùng cơ số: $3^8 : 3^4 = 3^{8-4} = 3^4$."
+  },
+  {
+    "id": "t6_b6_q15",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả của phép tính $10^5 \\\\cdot 10^3 \\\\cdot 10$ là:",
+    "options": [
+      "$10^8$",
+      "$10^9$",
+      "$10^{15}$",
+      "$30^9$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $10 = 10^1$. Khi đó: $10^5 \\\\cdot 10^3 \\\\cdot 10^1 = 10^{5+3+1} = 10^9$."
+  },
+  {
+    "id": "t6_b6_q16",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Viết tích $2^3 \\\\cdot 8$ dưới dạng một lũy thừa của 2:",
+    "options": [
+      "$2^5$",
+      "$2^6$",
+      "$16^3$",
+      "$2^{11}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $8 = 2^3$. Khi đó $2^3 \\\\cdot 8 = 2^3 \\\\cdot 2^3 = 2^{3+3} = 2^6$."
+  },
+  {
+    "id": "t6_b6_q17",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Tìm số tự nhiên $x$ thỏa mãn $5^x = 125$:",
+    "options": [
+      "$x=2$",
+      "$x=3$",
+      "$x=4$",
+      "$x=5$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Vì $125 = 5 \\\\cdot 5 \\\\cdot 5 = 5^3$. Do đó $5^x = 5^3 \\\\Rightarrow x = 3$."
+  },
+  {
+    "id": "t6_b6_q18",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Giá trị của lũy thừa $10^5$ bằng:",
+    "options": [
+      "50",
+      "10000",
+      "100000",
+      "1000000"
+    ],
+    "correct_answer": 2,
+    "explanation": "Lũy thừa cơ số 10 có giá trị là 1 kèm theo số chữ số 0 bằng số mũ. Với $10^5$, kết quả có 5 chữ số 0, tức là 100000."
+  },
+  {
+    "id": "t6_b6_q19",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số tự nhiên $x$ thỏa mãn $2^{x+1} = 8$ là:",
+    "options": [
+      "$x=2$",
+      "$x=3$",
+      "$x=4$",
+      "$x=1$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có $8 = 2^3$. Suy ra $2^{x+1} = 2^3 \\\\Rightarrow x + 1 = 3 \\\\Rightarrow x = 2$."
+  },
+  {
+    "id": "t6_b6_q20",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Kết quả so sánh nào sau đây là đúng?",
+    "options": [
+      "$3^2 > 2^3$",
+      "$3^2 < 2^3$",
+      "$3^2 = 2^3$",
+      "$3^2 = 6$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có $3^2 = 9$ và $2^3 = 8$. Vì $9 > 8$ nên $3^2 > 2^3$."
+  },
+  {
+    "id": "t6_b6_q21",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ2 - Thông hiểu]",
+    "question": "Số tự nhiên nào sau đây biểu diễn được dưới dạng bình phương của một số tự nhiên khác 0?",
+    "options": [
+      "15",
+      "16",
+      "20",
+      "28"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $16 = 4^2$, nên 16 là một số chính phương."
+  },
+  {
+    "id": "t6_b6_q22",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Giá trị của biểu thức $A = 3^3 \\\\cdot 2 - 2^2 \\\\cdot 5$ bằng:",
+    "options": [
+      "34",
+      "14",
+      "38",
+      "12"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có $3^3 \\\\cdot 2 = 27 \\\\cdot 2 = 54$; $2^2 \\\\cdot 5 = 4 \\\\cdot 5 = 20$. Suy ra $A = 54 - 20 = 34$."
+  },
+  {
+    "id": "t6_b6_q23",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số tự nhiên $n$ thỏa mãn $3^n \\\\cdot 9 = 243$:",
+    "options": [
+      "$n=3$",
+      "$n=4$",
+      "$n=5$",
+      "$n=2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có: $3^n \\\\cdot 9 = 243 \\\\Rightarrow 3^n \\\\cdot 3^2 = 3^5 \\\\Rightarrow 3^{n+2} = 3^5 \\\\Rightarrow n + 2 = 5 \\\\Rightarrow n = 3$."
+  },
+  {
+    "id": "t6_b6_q24",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tổng $1 + 3 + 5 + 7 + 9 + 11$ viết dưới dạng bình phương của một số tự nhiên là:",
+    "options": [
+      "$6^2$",
+      "$5^2$",
+      "$7^2$",
+      "$36^2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có $1 + 3 + 5 + 7 + 9 + 11 = 36 = 6^2$. Quy luật: Tổng của $k$ số lẻ liên tiếp bắt đầu từ 1 là $k^2$."
+  },
+  {
+    "id": "t6_b6_q25",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số tự nhiên $x$ thỏa mãn $(2x - 1)^2 = 49$:",
+    "options": [
+      "$x=3$",
+      "$x=4$",
+      "$x=5$",
+      "$x=6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có $(2x - 1)^2 = 7^2 \\\\Rightarrow 2x - 1 = 7 \\\\Rightarrow 2x = 8 \\\\Rightarrow x = 4$."
+  },
+  {
+    "id": "t6_b6_q26",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Số tự nhiên $x$ thỏa mãn $x^3 = x^2$ là:",
+    "options": [
+      "Chỉ $x=1$",
+      "Chỉ $x=0$",
+      "$x=0$ hoặc $x=1$",
+      "Không tồn tại $x$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Với $x=0$, ta có $0^3 = 0^2 = 0$. Với $x=1$, ta có $1^3 = 1^2 = 1$. Với $x \\\\ge 2$, $x^3 > x^2$. Vậy $x \\\\in \\\\{0; 1\\\\}$."
+  },
+  {
+    "id": "t6_b6_q27",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "So sánh hai lũy thừa $A = 3^{40}$ và $B = 5^{20}$:",
+    "options": [
+      "$A > B$",
+      "$A < B$",
+      "$A = B$",
+      "Không thể so sánh"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ta có: $A = 3^{40} = (3^4)^{10} = 81^{10}$; $B = 5^{20} = (5^2)^{10} = 25^{10}$. Vì $81 > 25$ nên $81^{10} > 25^{10} \\\\Rightarrow A > B$."
+  },
+  {
+    "id": "t6_b6_q28",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ3 - Vận dụng]",
+    "question": "Tìm số tự nhiên $x$ thỏa mãn $2^{x} + 2^{x+1} = 48$:",
+    "options": [
+      "$x=3$",
+      "$x=4$",
+      "$x=5$",
+      "$x=6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có: $2^x + 2^x \\\\cdot 2^1 = 48 \\\\Rightarrow 2^x \\\\cdot (1 + 2) = 48 \\\\Rightarrow 2^x \\\\cdot 3 = 48 \\\\Rightarrow 2^x = 16 \\\\Rightarrow x = 4$."
+  },
+  {
+    "id": "t6_b6_q29",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Tính giá trị biểu thức $P = \\\\frac{2^5 \\\\cdot 15^3}{6^3 \\\\cdot 10^2}$:",
+    "options": [
+      "$2$",
+      "$3$",
+      "$5$",
+      "$10$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Đưa về lũy thừa các thừa số nguyên tố: $P = \\\\frac{2^5 \\\\cdot (3 \\\\cdot 5)^3}{(2 \\\\cdot 3)^3 \\\\cdot (2 \\\\cdot 5)^2} = \\\\frac{2^5 \\\\cdot 3^3 \\\\cdot 5^3}{2^3 \\\\cdot 3^3 \\\\cdot 2^2 \\\\cdot 5^2} = \\\\frac{2^5 \\\\cdot 3^3 \\\\cdot 5^3}{2^5 \\\\cdot 3^3 \\\\cdot 5^2} = 5^{3-2} = 5^1 = 5$. Khoan, các phương án lựa chọn không có 5? Hãy xem lại mẫu số: $6^3 \\\\cdot 10^2 = 2^3 \\\\cdot 3^3 \\\\cdot 2^2 \\\\cdot 5^2 = 2^5 \\\\cdot 3^3 \\\\cdot 5^2$. Đúng, kết quả là 5. Hãy sửa các phương án lựa chọn để chứa đáp án 5."
+  },
+  {
+    "id": "t6_b6_q30",
+    "topic": "toan6_c1_b06_luy_thua",
+    "chapter": "Chương I: Tập hợp các số tự nhiên",
+    "level": "[MĐ4 - Vận dụng cao]",
+    "question": "Tìm số tự nhiên $n$ thỏa mãn: $1 + 3 + 3^2 + 3^3 + \\\\dots + 3^n = 121$:",
+    "options": [
+      "$n=3$",
+      "$n=4$",
+      "$n=5$",
+      "$n=6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ta có: $1 + 3 + 3^2 + 3^3 + 3^4 = 1 + 3 + 9 + 27 + 81 = 121$. Vậy $n = 4$."
+  }
+]

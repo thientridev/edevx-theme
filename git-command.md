@@ -17,7 +17,7 @@ python edevx_engine.py
 
 
 # 4. Dòng lệnh đẩy bài mới hàng ngày - dùng thường xuyên
-git add . ; git commit -m "Day file git-commmand.md" ; git push
+git add . ; git commit -m "sua file edevx.js" ; git push
 ```
 
 ---
